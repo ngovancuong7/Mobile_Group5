@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dictionary.ui.home.HomeFragment"
+        android:label="Dịch"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.dictionary.ui.chat.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.dictionary.ui.history.HistoryFragment"
+        android:label="Lịch sử"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment">
+            <argument
+                android:name="word"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.dictionary.ui.favorite.FavoriteFragment"
+        android:label="Yêu thích"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoriteFragment_to_dictionaryFragment"
+            app:destination="@id/dictionaryFragment">
+            <argument
+                android:name="word"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.example.dictionary.ui.dictionary.DictionaryFragment"
+        android:label="Tra cứu từ"
+        tools:layout="@layout/fragment_dictionary">
+        <argument
+            android:name="word"
+            app:argType="string"
+            android:defaultValue="" />
+
+        <action
+            android:id="@+id/action_self"
+            app:destination="@id/dictionaryFragment"
+            app:popUpTo="@id/dictionaryFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.dictionary.ui.settings.SettingsFragment"
+        android:label="Cài đặt"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

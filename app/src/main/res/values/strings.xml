@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="dictionary_lookup">Tra cứu từ</string>
+    <string name="enter_word_to_lookup">Nhập từ cần tra cứu</string>
+    <string name="search">Tìm</string>
+    <string name="play_pronunciation">Phát âm từ</string>
+    <string name="play_translation">Phát âm bản dịch</string>
+    <string name="add_to_favorites">Yêu thích</string>
+    <string name="remove_from_favorites">Xóa khỏi yêu thích</string>
+    <string name="long_press_to_select">Nhấn giữ để chọn</string>
+    <string name="select_items_to_delete">Chọn các mục để xóa</string>
+    <string name="example_format">Ví dụ sử dụng %1$d: %2$s</string>
+    <string name="synonyms_format">Từ đồng nghĩa: %1$s</string>
+    <string name="antonyms_format">Từ trái nghĩa: %1$s</string>
+    <string name="share_word">Chia sẻ</string>
+    <string name="history">Lịch sử tra cứu</string>
+    <string name="favorites">Từ yêu thích</string>
+    <string name="no_history_items">Chưa có từ nào trong lịch sử</string>
+    <string name="no_favorite_words">Chưa có từ yêu thích nào</string>
+    <string name="delete_history">Xóa lịch sử</string>
+    <string name="toggle_favorite">Thêm/xóa khỏi yêu thích</string>
+    <string name="add_note">Thêm ghi chú</string>
+    <string name="edit_note">Sửa ghi chú</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="select_mode">Chọn nhiều</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="delete_selected">Xóa đã chọn</string>
+    <string name="delete_all">Xóa tất cả</string>
+    <string name="confirm_delete">Xác nhận xóa</string>
+    <string name="confirm_delete_selected_message">Bạn có chắc chắn muốn xóa %d mục đã chọn?</string>
+    <string name="confirm_delete_all_history_message">Bạn có chắc chắn muốn xóa tất cả lịch sử tra cứu?</string>
+    <string name="selected_items_count">Đã chọn: %d</string>
+    <string name="note_hint">Nhập ghi chú của bạn ở đây…</string>
+    <string name="no_internet_message">Không có kết nối internet. Đang sử dụng dữ liệu đã lưu.</string>
+    <string name="word_not_found">Không tìm thấy từ này trong cơ sở dữ liệu.</string>
+    <string name="translation_placeholder">Bản dịch sẽ hiển thị ở đây</string>
+    <string name="confirm_delete_word">Bạn có chắc chắn muốn xóa từ \"%s\" khỏi lịch sử?</string>
+    <string name="search_hint">Tìm kiếm lịch sử tra cứu</string>
+
+</resources>

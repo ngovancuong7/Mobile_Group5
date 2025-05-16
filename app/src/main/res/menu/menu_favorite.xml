@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_select_mode"
+        android:icon="@drawable/ic_select_all_animated"
+        android:title="@string/select_mode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_select_all"
+        android:icon="@drawable/ic_select_all_animated"
+        android:title="@string/select_all"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_remove_selected"
+        android:icon="@drawable/ic_favorite_border_animated"
+        android:title="@string/remove_from_favorites"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+</menu>
